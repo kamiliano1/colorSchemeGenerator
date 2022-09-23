@@ -1,0 +1,109 @@
+html, body {
+    width: 550px;
+    margin: 10px auto;
+    font-family: 'Inter';
+
+}
+
+/* Dark mode */
+
+.dark {
+    background: #1F2937;
+    color: #D5D4D8;
+}
+
+.dark option,
+.dark button  {
+    color: white;
+    background: #1F2937;
+    background: #3D4B60;
+    border: none;
+}
+
+.dark h4 {
+    color: white;
+}
+/* typography */
+
+p {
+    margin: 0;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #2B283A;
+
+}
+
+form {
+    padding: 1.5rem 0.9rem;
+    
+}  
+
+/* NavBar */
+
+#nav-top-row {
+    display: flex;
+}
+
+#color-pallete {
+    
+    border: 0.5px solid #D1D5DB;
+    height: 42px;
+    width: 61px;
+    margin-right: 0.75rem;
+}
+
+#color-pallete::-webkit-color-swatch-wrapper{
+    padding: 0px;
+}
+
+button {
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+}
+
+#dark-mode-btn {
+    margin-top: 1em;
+}
+
+/* NavBar slider */
+
+#slider {
+    margin-top: 1em;
+    width: 50%;
+    
+}
+#slider-div {
+    text-align: center;
+}
+
+/* NavBar selector */
+
+#scheme-type {
+    padding: 0.6rem .8125rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    width: 312px;
+    margin-right: 0.75rem; 
+    color: inherit;
+    background: inherit;
+}
+
+/* Main */
+
+main {
+    display: flex;
+}
+
+.generated-pallette-colors {
+    height: 500px;
+}
+

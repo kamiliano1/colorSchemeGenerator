@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav>
+            <form>
+                <div id="nav-top-row">
+                    <input id="color-pallete" type="color"/>
+                        <select id="scheme-type">
+                            <option value="monochrome">Monochrome</option>
+                            <option value="monochrome-dark">Monochrome-dark</option>
+                            <option value="monochrome-light">Monochrome-light</option>
+                            <option value="analogic">Analogic</option>
+                            <option value="complement">Complement</option>
+                            <option value="analogic-complement">Analogic-complement</option>
+                            <option value="triad">Triad</option>
+                            <option value="quad">Quad</option>
+                        </select>
+                    <button id="scheme-btn">Get color scheme</button>
+                </div>
+                <div id ="slider-div">
+                <input type="range" min="4" max="9" value="5" id="slider">
+                    <p>Pallette quantity: <span id="slider-qty"></span></p>
+                    <button id="dark-mode-btn">Dark mode</button>
+                </div>
+            </form>
+            
+        </nav>
+        <main id="main-container">
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+ 
